@@ -1,0 +1,11 @@
+Pre-Requirement : Apigee Maven Plugin Should be present in your local MVN repository
+
+Step1 : Package the Apigee Code as per Standard.
+Step2 : Push the Apigee Code to GIT repository
+Step3 : Now Configure new Job in Jenkins
+       In the Source Code Management Section select GIT & give the repository url as https://github.com/raviintipalli/Sample7.git
+	   In the Build Section(Root POM) provide the Path of Project POM forecastweatherapi/pom.xml	   	
+       Goals and options : install -P test -D username=ravi.intipalli@accenture.com -D password=Mahesh123$
+Step4: Save the Configuration
+Step5: Build the Project
+	   
