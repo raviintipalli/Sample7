@@ -7,5 +7,5 @@ Step3 : Now Configure new Job in Jenkins
 	   In the Build Section(Root POM) provide the Path of Project POM forecastweatherapi/pom.xml	   	
        Goals and options : install -P test -D username=ravi.intipalli@accenture.com -D password=Mahesh123$
 Step4: Save the Configuration
-Step5: Now Build the Project now1cc ff bb
+Step5: Now Build the Project now1cc ff bb jj
 	   
